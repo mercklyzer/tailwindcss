@@ -5,12 +5,12 @@ const Navbar = props => {
         <div>
             <nav>
                 <div>
-                    <h1>
+                    <h1 className="font-bold uppercase">
                         <a href="/">Food Ninja</a>
                     </h1>
                 </div>
                 <ul>
-                    <li>
+                    <li className="text-gray-700 font-bold">
                         <a href="#">
                         <span>Home</span>
                         </a>
