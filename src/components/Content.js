@@ -3,13 +3,13 @@ import React from "react"
 const Content = props => {
     return (
         <main className="px-16 py-6">
-            <div>
-                <a href="#" className="text-primary font-one">Log in</a>
-                <a href="#" className="text-primary font-two">Sign up</a>
+            <div className="flex justify-end">
+                <a href="#" className="text-primary">Log in</a>
+                <a href="#" className="text-primary ml-2">Sign up</a>
             </div>
 
             <header>
-                <h2 className="text-gray-700 text-6xl font-semibold font">Recipes</h2>
+                <h2 className="text-gray-700 text-6xl font-semibold">Recipes</h2>
                 <h3 className="text-2xl font-semibold">For Ninjas</h3>
             </header>
 
@@ -34,7 +34,7 @@ const Content = props => {
                 </div>
             </div>
 
-            <div>
+            <div className="flex justify-center">
                 <div className="bg-secondary-200">Load more</div>
             </div>    
         </main>
