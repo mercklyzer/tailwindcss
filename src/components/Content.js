@@ -2,7 +2,7 @@ import React from "react"
 
 const Content = props => {
     return (
-        <main>
+        <main className="px-16 py-6">
             <div>
                 <a href="#">Log in</a>
                 <a href="#">Sign up</a>
@@ -14,22 +14,22 @@ const Content = props => {
             </header>
 
             <div>
-                <h4 className="font-bold">Latest Recipes</h4>
+                <h4 className="font-bold mt-12 pb-2 border-b border-gray-200">Latest Recipes</h4>
         
-                <div>
-                {/* <!-- cards go here --> */}
-                <div> 
-                    <img src={require('../assets/stew.jpg')} alt="stew" />
-                    <div>
-                    <span>5 Bean Chili Stew</span>
-                    <span>Recipe by Mario</span>
+                <div className="mt-8">
+                    {/* <!-- cards go here --> */}
+                    <div> 
+                        <img src={require('../assets/stew.jpg')} alt="stew" />
+                        <div>
+                        <span>5 Bean Chili Stew</span>
+                        <span>Recipe by Mario</span>
+                        </div>
                     </div>
                 </div>
-                </div>
 
-                <h4 className="font-bold">Most Popular</h4>
+                <h4 className="font-bold mt-12 pb-2 border-b border-gray-200">Most Popular</h4>
 
-                <div>
+                <div className="mt-8">
                 {/* <!-- cards go here --> */}
                 </div>
             </div>
