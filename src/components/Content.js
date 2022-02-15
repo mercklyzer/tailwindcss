@@ -18,13 +18,7 @@ const Content = props => {
         
                 <div className="mt-8">
                     {/* <!-- cards go here --> */}
-                    <div> 
-                        <img src={require('../assets/stew.jpg')} alt="stew" />
-                        <div>
-                        <span>5 Bean Chili Stew</span>
-                        <span>Recipe by Mario</span>
-                        </div>
-                    </div>
+                    
                 </div>
 
                 <h4 className="font-bold mt-12 pb-2 border-b border-gray-200">Most Popular</h4>

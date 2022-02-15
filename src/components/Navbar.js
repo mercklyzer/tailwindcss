@@ -6,7 +6,7 @@ const Navbar = props => {
             <nav>
                 <div>
                     <h1 className="font-bold uppercase p-4 border-b border-gray-100">
-                        <a href="/">Food Ninja</a>
+                        <a href="/" className="text-green-500 sm:text-red-500 lg:text-blue-500">Food Ninja</a>
                     </h1>
                 </div>
                 <ul>
