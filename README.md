@@ -79,3 +79,25 @@ fontFamily: {
   two: ['Open Sans']
 }
 ```
+
+## Flex
+
+Syntax: flex {justify|items}-{value} <br />
+Documentation: https://tailwindcss.com/docs/flex <br />
+
+## Responsive Classes (Media Queries)
+mobile-first approach <br />
+Syntax: {size}:{class} <br />
+
+## Cards
+* shadow
+* overflow
+* block
+* w-full (width full)
+* h-32 (height)
+* object-cover
+
+## Badge
+* absolute
+* relative
+* top-0
