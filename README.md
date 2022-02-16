@@ -111,3 +111,10 @@ Example:
 }
 ```
 Then you can simply use the class "card" <br />
+
+## Grids
+https://tailwindcss.com/docs/grid-template-columns <br />
+For gaps: https://tailwindcss.com/docs/gap <br />
+
+grid grid-cols-{1-12} gap-{x|y|none}-{number} <br />
+col-span-{1-12}
