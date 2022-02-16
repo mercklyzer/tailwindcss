@@ -122,3 +122,6 @@ col-span-{1-12}
 ## Icons
 https://heroicons.dev/ <br />
 just add classes i.e. w-4 h-5 
+
+## Hover
+Syntax: hover:{property} duration-{number}
