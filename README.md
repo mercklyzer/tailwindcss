@@ -125,3 +125,7 @@ just add classes i.e. w-4 h-5
 
 ## Hover
 Syntax: hover:{property} duration-{number}
+
+## Transition
+Syntax: transition ease-{linear|in|out|in-out} duration-{number}
+Syntax: transform scale-{number}
