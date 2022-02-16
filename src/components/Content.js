@@ -23,7 +23,7 @@ const Content = props => {
     return (
         <main className="md:col-span-2 px-4 py-6 sm:px-16 bg-gray-100">
             <div className="flex justify-center md:justify-end">
-                <a href="#" className="text-primary btn border-primary md:border-2 hover:bg-primary hover:text-white duration-300">Log in</a>
+                <a href="#" className="text-primary btn border-primary md:border-2 hover:bg-primary hover:text-white transition ease-in duration-500">Log in</a>
                 <a href="#" className="text-primary ml-2 btn border-primary md:border-2 hover:bg-primary hover:text-white duration-300">Sign up</a>
             </div>
 
@@ -50,7 +50,7 @@ const Content = props => {
             </div>
 
             <div className="flex justify-center">
-                <div className="bg-secondary-200 btn hover:shadow-inner">Load more</div>
+                <div className="bg-secondary-200 btn hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 duration-300">Load more</div>
             </div>    
         </main>
     )
