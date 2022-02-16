@@ -118,3 +118,7 @@ For gaps: https://tailwindcss.com/docs/gap <br />
 
 grid grid-cols-{1-12} gap-{x|y|none}-{number} <br />
 col-span-{1-12}
+
+## Icons
+https://heroicons.dev/ <br />
+just add classes i.e. w-4 h-5 
