@@ -5,7 +5,7 @@ import Content from './components/Content';
 
 function App() {
   return (
-    <div className="App text-gray-600">
+    <div className="App text-gray-600 grid md:grid-cols-3">
       <Navbar />
       <Content />
     </div>
