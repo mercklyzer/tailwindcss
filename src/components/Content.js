@@ -22,9 +22,9 @@ const data = [
 const Content = props => {
     return (
         <main className="md:col-span-2 px-4 py-6 sm:px-16 bg-gray-100">
-            <div className="flex justify-end">
-                <a href="#" className="text-primary">Log in</a>
-                <a href="#" className="text-primary ml-2">Sign up</a>
+            <div className="flex justify-center md:justify-end">
+                <a href="#" className="text-primary btn border-primary md:border-2">Log in</a>
+                <a href="#" className="text-primary ml-2 btn border-primary md:border-2">Sign up</a>
             </div>
 
             <header>
@@ -50,7 +50,7 @@ const Content = props => {
             </div>
 
             <div className="flex justify-center">
-                <div className="bg-secondary-200">Load more</div>
+                <div className="bg-secondary-200 btn">Load more</div>
             </div>    
         </main>
     )
