@@ -101,3 +101,13 @@ Syntax: {size}:{class} <br />
 * absolute
 * relative
 * top-0
+
+## Apply Directive
+Usage: creates a reusable class that can have multiple properties <br />
+Example: 
+```
+.card{
+    @apply bg-white rounded overflow-hidden shadow-md relative
+}
+```
+Then you can simply use the class "card" <br />
