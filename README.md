@@ -125,6 +125,7 @@ just add classes i.e. w-4 h-5
 
 ## Hover
 Syntax: hover:{property} duration-{number}
+Syntax: {class}-hover:{property} <- usually used when parent (has class) is hovered, do something on child
 
 ## Transition
 Syntax: transition ease-{linear|in|out|in-out} duration-{number}
